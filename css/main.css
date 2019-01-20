@@ -4,6 +4,7 @@ body {
     background-image: url("/vehicle-wireframe-model.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #E4A814;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
