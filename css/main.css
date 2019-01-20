@@ -2,6 +2,8 @@ body {
     margin: 60px auto;
     width: 70%;
     background-image: url("/vehicle-wireframe-model.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
