@@ -1,7 +1,5 @@
 body {
-    margin-left: 30px auto;
-    margin-right: 60px auto;
-    margin-top: 40px auto;
+    margin: 40px 60px 10px 30px;
     width: 70%;
     background-image: url("/vehicle-wireframe-model.jpg");
     background-repeat: no-repeat;
