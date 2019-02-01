@@ -8,6 +8,7 @@ body {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-align:center;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -49,5 +50,6 @@ ul.posts {
 }
 
 ul.posts li {
+    text-align: center;
     list-style: none;
 }
