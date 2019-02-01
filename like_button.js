@@ -26,4 +26,4 @@ class LikeButton extends React.Component {
 
 // Find the <div> added to index.html and display "Like" button React component inside
 const domContainer = document.querySelector('#like_button_container');
-ReactDOM.render(e(LikeButton), domContainer);
+// ReactDOM.render(e(LikeButton), domContainer);
