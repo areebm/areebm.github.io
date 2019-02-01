@@ -30,6 +30,7 @@ h1 {
     text-align: center;
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    border-bottom: 3px solid #ff0000;
 }
 p {
     text-align:center;
