@@ -6,6 +6,11 @@ body {
     background-size: cover; */
     background-color: #ffffff;
 }
+
+@font-face {
+  font-family: "CenturyOldStyleRegular";
+  src: url("/fonts/CenturyOldStyleRegular.otf") format("opentype");
+}
 nav ul, footer ul {
 /*     font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
     font-family: 'CenturyOldStyleRegular';
