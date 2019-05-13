@@ -1,16 +1,540 @@
----
-layout: default
-title: Areeb Mehmood, Graduate Mechanical Engineering Student
----
-<div class="blurb">
-	<h1>Areeb Mehmood</h1>
-	<p>This website is a work in progress. </p> 
-</div><!-- /.blurb -->
+<!DOCTYPE html>
+<html lang="en">
 
-<div id="like_button_container"></div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Areeb Mehmood</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    <!-- main style -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 
-<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<body>
 
-  <!-- Load our React component. -->
-  <script src="like_button.js"></script>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+
+            <div class="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar">
+            </div>
+
+        </div>
+    </div>
+    <!-- ./Preloader -->
+    
+    <!-- header -->
+    <header class="navbar-fixed-top">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#projects">projects</a></li>
+                <!-- <li><a href="#contact">contact</a></li> -->
+            </ul>
+        </nav>
+    </header>
+    <!-- ./header -->
+    
+    <!-- home -->
+    <div class="section" id="home" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="disply-table">
+                <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
+                    <h4>Areeb Mehmood</h4>
+                    <h1>Mechanical Engineer</h1> </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./home -->
+    
+    <!-- about -->
+    <div class="section" id="about">
+        <div class="container">
+            <div class="col-md-6" data-aos="fade-up">
+                <h4>01</h4>
+                <h1 class="size-50">About <br/> Me</h1>
+                <div class="h-50"></div>
+                <p>I am a Mechanical Engineering student at the Georgia Institute of Technology. I hold a Bachelors of Science degree in Mechanical Engineering with a Minor in Computer Science from the Universtiy of California, Davis.</p>
+                <p>I enjoy developing software, motorcycle riding, photography, design and learning new things! </p>
+                <p>This website is a gallery of the projects I've worked on, and a work in progress. Please view my Github for any related code. </p>
+                <!-- <div class="h-50"></div> <img src="img/Signature.svg" width="230" alt="" /> -->
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-6 about-img-div">
+                <div class="about-border" data-aos="fade-up" data-aos-delay=".5"></div>
+                <img src="img/about_me_portrait.JPG" width="400" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
+            </div>
+        </div>
+    </div>
+    <!-- ./about -->
+    
+    <!-- experience  -->
+    <div class="section" id="experience">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>02</h4>
+                <h1 class="size-50">My Work<br /> Experience</h1>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-12">
+                <ul class="timeline">
+                    <li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">June 2015 - September 2015</p>
+                            <h3>Mechanical Team Captain</h3>
+                            <h4>Solar Car at UC Davis, Davis CA</h4>
+                            <p><strong>Chassis</strong>
+                                <br>Designed a spaceframe chassis and researched materials and methods for fabrication.</p>
+                            <p><strong>Power Systems</strong> 
+                                <br>Designed a novel thermal management system for battery enclosure.</p>
+                            <p><strong>Aerodynamics</strong>  
+                                <br>Oversaw design of shell to conform with Chassis and Suspension systems, including considerations for efficient ventilation ducting design and low drag body contours.</p>
+                        </div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">June 2015 - September 2015</p>
+                            <h3>Android Software Engineer</h3>
+                            <h4>Renovo Auto, Campbell CA</h4>
+                            <p><strong>Android</strong>
+                                <br>Developed native Android applications using Java for effective conveyance of high-power eletric vehicle telemetry data through a Wi-Fi Direct connection.</p>
+                            <p><strong>Design</strong> 
+                                <br>Designed an optimal user interface for drivers facing situations of high sensory input.</p>
+                            <p><strong>Modules</strong>  
+                                <br>Worked with the CANbus protocol, and Intel Edison Compute Module programming.</p>
+                        </div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">March 2016 - August 2016</p>
+                            <h3>Mechanical Design Engineer</h3>
+                            <h4>Tech Inception, Palo Alto CA</h4>
+                            <p><strong>Large-Assembly CAD</strong> 
+                                <br>Designed a large-assembly robot-accessible shelving unit using Solidworks Premium, among other proprietary work.</p>
+                            <p><strong>Manufacture</strong> 
+                                <br>Determined best materials and design for optimum manufacturability and cost.</p>
+                            <p><strong>Product</strong> 
+                                <br>Co-invented a proprietary pharmaceutical product and wrote Provisional Patent Application.</p>
+                        </div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".4">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">January 2013 - January 2015</p>
+                            <h3>Computer Room Consultant</h3>
+                            <h4>Academic Technology Services, Davis CA</h4>
+                            <p><strong>Task 1</strong>
+                                <br>Provided software help and consulatation services to university computer lab patrons. </p>
+                            <p><strong>Task 2</strong>
+                                <br>Ensured the security of lab equipment and provided direct help to classes taught in the computer labs.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ./experience -->
+    
+    <!-- projects -->
+    <div class="section" id="projects">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>03</h4>
+                <h1 class="size-50">My <br /> Projects</h1> 
+            </div>
+            <!-- main container -->
+            <div class="main-container portfolio-inner clearfix">
+                <!-- portfolio div -->
+                <div class="portfolio-div">
+                    <div class="portfolio">
+                        <!-- portfolio_filter -->
+                        <div class="categories-grid wow fadeInLeft">
+                            <nav class="categories">
+                                <ul class="portfolio_filter">
+                                    <li><a href="" class="active" data-filter="*">All</a></li>
+                                    <li><a href="" data-filter=".software">Software</a></li>
+                                    <li><a href="" data-filter=".cad">CAD</a></li>
+                                    <li><a href="" data-filter=".robotics">Robotics</a></li>
+                                    <li><a href="" data-filter=".design">Design</a></li>
+                                    <li><a href="" data-filter=".automotive">Automotive</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- portfolio_filter -->
+                        
+                        <!-- portfolio_container -->
+                        <div class="no-padding portfolio_container clearfix" data-aos="fade-up">
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 cad">
+                                <a id="demo01" href="#animatedModal_cad" class="portfolio_item"> <img src="img/portfolio/cad/cartesian.JPG" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Cartesian Assembly</span> <em>Computer Aided Design</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 software automotive design">
+                                <a id="demo02" href="#animatedModal_renovo" class="portfolio_item"> <img src="img/portfolio/renovo/renovo_dash.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Telemetry Dash</span> <em>Renovo Auto</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 automotive design cad automotive">
+                                <a id="demo04" href="#animatedModal_solar_car" class="portfolio_item"> <img src="img/portfolio/solar_car/chassis.JPG" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Spaceframe Chassis</span> <em>Solar Car at UC Davis</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 software design">
+                                <a id="demo03" href="#animatedModal_game_dev" class="portfolio_item"> <img src="img/portfolio/game_dev/blocksoid_screenshot.png" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Blocksoid</span> <em>Unity 3D Game Development</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 software">
+                                <a id="demo06" href="#animatedModal_vehicle_sim" class="portfolio_item"> <img src="img/portfolio/vehicle_simulation/suspension_plot_cropped.png" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Suspension Plots</span> <em>Vehicle Simulation</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 robotics">
+                                <a id="demo05" href="#animatedModal_robotics" class="portfolio_item"> <img src="img/portfolio/robotics/krang_portrait_cropped.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Robotics</span> <em>Robotics</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 software">
+                                <a id="demo06" href="#animatedModal_app_dev" class="portfolio_item"> <img src="img/portfolio/app_dev/earthshare_screenshot.png" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>EarthShare</span> <em>Android App Development</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                        </div>
+                        <!-- end portfolio_container -->
+                    </div>
+                    <!-- portfolio -->
+                </div>
+                <!-- end portfolio div -->
+            </div>
+            <!-- end main container -->
+        </div>
+    </div>
+    <!-- ./projects -->
+
+    <!--DEMO01-->
+    <div id="animatedModal_cad" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModal_cad close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Computer Aided Design<br /> Gallery </h2>
+                        <h4> solidworks, design</h4>
+                        <div class="h-50"></div>
+                        <p>In progress! </p>
+                        <br />
+                        <br /> <img src="img/portfolio/cad/cartesian.JPG" alt="" class="img-responsive" />
+                        <br />
+                        <br />
+                        <img src="img/portfolio/cad/materials_multitool_render.JPG" alt="" class="img-responsive" /><br /> 
+                        <img src="img/portfolio/cad/revonut_design_assembly.JPG" alt="" class="img-responsive" /><br /> 
+                        <img src="img/portfolio/cad/engine_hoist.JPG" alt="" class="img-responsive" />
+                        <br />
+                        <br /> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--DEMO02-->
+    <div id="animatedModal_renovo" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModal_renovo close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Software Engineering Internship<br /> Renovo Auto </h2>
+                        <h4> java, android, adobe illustrator, 0MQ</h4>
+                        <div class="h-50"></div>
+                        <p>A Renovo collaboration with their customer, the Stanford Dynamic Design Lab. Renovo supplied a high-power electric drivetrain 
+                        to the research vehicle, a 1981 Delorean named MARTY. </p>
+                        <p>I developed mobile applications that relayed telemetry data from the vehicle to the dashboard tablets, and to remote 
+                            Android devices used to track vital vehicle data by Renovo engineers, such as battery temperatures and voltages. </p>
+                        <br />
+                        <br /> <img src="img/portfolio/renovo/renovo_dash.jpg" alt="" class="img-responsive" />
+                        <br />
+                        <br />
+                        <p>I built the native applications using Java, and designed everything from scratch. I built all graphics elements in Adobe Illustrator. An Intel Edison was used to publish CAN data from an attached CAN card. I utilized the ZeroMQ Pub/Sub pattern to allow multipe Android devices to connect through a Wifi Direct connection. </p>
+                        <p>Some early prototype designs.</p>
+                        <br />
+                        <br /> 
+                        <img src="img/portfolio/renovo/dash_prototype.jpg" alt="" class="img-responsive" /><br /> 
+                        <img src="img/portfolio/renovo/laptop_notes.jpg" alt="" class="img-responsive" /><br /> 
+                        <img src="img/portfolio/renovo/prototype1.jpg" alt="" class="img-responsive" />
+                        <br />
+                        <br />
+                        <p>And the final design showing most of the resulting data. A swipe on the lower screen reveals more detailed battery information.</p>
+                        <br />
+                        <br /> 
+                        <img src="img/portfolio/renovo/final.jpg" alt="" class="img-responsive" />
+                        <br />
+                        <br /> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--DEMO03-->
+    <div id="animatedModal_solar_car" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModal_solar_car close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Solar Car at UC Davis<br /> Gallery </h2>
+                        <h4> solidworks, automotive, design, manufacturing</h4>
+                        <div class="h-50"></div>
+                        <p>In progress! </p>
+                        <br />
+                        <br /> <img src="img/portfolio/solar_car/chassis_full.JPG" alt="" class="img-responsive" />
+                        <br />
+                        <br />
+                        <img src="img/portfolio/solar_car/shell_sizing_iso.JPG" alt="" class="img-responsive" /><br /> 
+                        <img src="img/portfolio/solar_car/final_assembly_captioned.JPG" alt="" class="img-responsive" /><br /> 
+                        <img src="img/portfolio/solar_car/enclosure_side_view.JPG" alt="" class="img-responsive" />
+                        <br />
+                        <br /> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--DEMO04-->
+    <div id="animatedModal_game_dev" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModal_game_dev close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Game Development<br /> Gallery </h2>
+                        <h4> design, game development, unity</h4>
+                        <div class="h-50"></div>
+                        <p> In progress! </p>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--DEMO05-->
+    <div id="animatedModal_vehicle_sim" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModal_vehicle_sim close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Vehicle Simulation<br /> DART </h2>
+                        <h4> simulation, dart, matlab</h4>
+                        <div class="h-50"></div>
+                        <p> In progress! </p>
+                        <br />
+                        <br />
+                        <img src="img/portfolio/vehicle_simulation/suspension_plot.png" alt="" class="img-responsive" />
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--DEMO06-->
+    <div id="animatedModal_robotics" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModal_robotics close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Robotics<br /> DART </h2>
+                        <h4> simulation, dart, robotics</h4>
+                        <div class="h-50"></div>
+                        <p> In progress! </p>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--DEMO07-->
+    <!-- <div id="animatedModal_app_dev" class="popup-modal"> -->
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <!-- <div id="btn-close-modal" class="close-animatedModal_app_dev close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Mobile App<br /> Development </h2>
+                        <h4> android studio, mobile app, design</h4>
+                        <div class="h-50"></div>
+                        <p> In progress! </p>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!--DEMO0X-->
+    <!-- <div id="animatedModal_2" class="popup-modal">
+        <div id="btn-close-modal" class="close-animatedModal_2 close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Geschäfts CHANGE<br /> Web-Studios</h2>
+                        <div class="h-50"></div>
+                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
+                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                        <br />
+                        <br /> <img src="img/portfolio/02.jpg" alt="" class="img-responsive" />
+                        <br />
+                        <br />
+                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
+                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                        <br />
+                        <br /> </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- contact -->
+    <!-- <div class="section" id="contact">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>04</h4>
+                <h1 class="size-50">Contact <br/>  Me</h1>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up">
+
+                <h3>Email</h3>
+                <p>areebmehmood@gmail.com </p>
+
+                <ul class="social">
+                    <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+                </ul>
+                
+                <div class="clearfix"></div>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-8" data-aos="fade-up">
+                <form class="contact-bg" id="contact-form" name="contact" method="post" novalidate="novalidate">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" />
+                    <input type="email" name="email" class="form-control" placeholder="Your E-mail" />
+                    <input type="text" name="phone" class="form-control" placeholder="Phone Number" />
+                    <textarea name="message" class="form-control" placeholder="Your Message" style="height:120px"></textarea>
+                    <button id="submit" type="submit" name="submit" class="btn btn-glance">Send</button>
+                    <div id="success">
+                        <p class="green textcenter"> Your message was sent successfully! I will be in touch as soon as I can. </p>
+                    </div>
+                    <div id="error">
+                        <p> Something went wrong, try refreshing and submitting the form again. </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div> -->
+    <!-- ./contact -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!--  plugins  -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+
+    <!--  main script  -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
