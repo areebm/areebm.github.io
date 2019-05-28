@@ -614,6 +614,34 @@ a.active {
     opacity: 1;
 }
 
+.animatedModal_renovo-on .close-popup-modal {
+    opacity: 1;
+}
+
+.animatedModal_game_dev-on .close-popup-modal {
+    opacity: 1;
+}
+
+.animatedModal_solar_car-on .close-popup-modal {
+    opacity: 1;
+}
+
+.animatedModal_cad-on .close-popup-modal {
+    opacity: 1;
+}
+
+.animatedModal_vehicle_sim-on .close-popup-modal {
+    opacity: 1;
+}
+
+.animatedModal_robotics-on .close-popup-modal {
+    opacity: 1;
+}
+
+.animatedModal_app_dev-on .close-popup-modal {
+    opacity: 1;
+}
+
 .modal-content h2 {
     font-family: 'Playfair Display', serif;
     font-size: 40px;
