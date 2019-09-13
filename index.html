@@ -54,7 +54,7 @@
             <div class="disply-table">
                 <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
                     <h4>Areeb Mehmood</h4>
-                    <h1>Graduate Student</h1> 
+                    <h1>M.S. Robotics Engineering</h1> 
                     <p> This website is a work in progress </p>
                 </div>
             </div>
@@ -69,8 +69,8 @@
                 <h4>01</h4>
                 <h1 class="size-50">About <br/> Me</h1>
                 <div class="h-50"></div>
-                <p>I am a Mechanical Engineering student at the Georgia Institute of Technology. I hold a Bachelors of Science degree in Mechanical Engineering with a Minor in Computer Science from the Universtiy of California, Davis.</p>
-                <p>I enjoy developing software, motorcycle riding, photography, design and learning new things! My current areas of interest are in Autonomous Robotics - specifically Dynamics, Control, Perception, and Localization. </p>
+                <p>I am a graduate from the Georgia Institute of Technology, where I earned my Masters of Science in Robotics Engineering. I hold a Bachelors of Science degree in Mechanical Engineering with a Minor in Computer Science from the Universtiy of California, Davis.</p>
+                <p>I enjoy developing software, motorcycle riding, design, and learning new things! My current areas of interest are in Autonomous Robotics - specifically Control and working with sensors such as LIDAR, Radar and 3D vision to accomplish intelligient understanding of surroundings. </p>
                 <p>This website is a collection of projects I've worked on. Cooler things will be added soon! </p>
                 <!-- <div class="h-50"></div> <img src="img/Signature.svg" width="230" alt="" /> -->
                 <div class="h-50"></div>
@@ -105,7 +105,7 @@
                             <p><strong>Simulation</strong>  
                                 <br>Through simulation in DART, confirmed the viability of IK/ID arm control methods for accomplishment of higher level balancing tasks of the two-wheeled robotic platform. </p>
                             <p><strong>Visual-Servo Control</strong> 
-                                <br>Adapted a stereo camera to determine 3-D pose of target objects identified with OpenCV, in order to accomplish grasping tasks with the developed IK/ID controller. The camera is simultaneously utilized for the localizaiton of the wheeled platform with respect to the target object. </p>
+                                <br>Adapted a stereo camera to determine 3-D pose of target objects identified with OpenCV, in order to accomplish grasping tasks with the developed IK/ID controller. The camera is simultaneously utilized for state estimation of the robots first link, and localization of the platform. </p>
                         </div>
                     </li>
                     
@@ -189,6 +189,18 @@
                         
                         <!-- portfolio_container -->
                         <div class="no-padding portfolio_container clearfix" data-aos="fade-up">
+
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 robotics">
+                                <a id="demo05" href="#animatedModal_robotics" class="portfolio_item"> <img src="img/portfolio/robotics/krang_portrait_cropped.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Robotics</span> <em>Robotics</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
                             
                             <!-- single work -->
                             <div class="col-md-4 col-sm-6 software design">
@@ -232,18 +244,6 @@
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
                                             <div class="item_info"> <span>Suspension Plots</span> <em>Vehicle Simulation</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-                            
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 robotics">
-                                <a id="demo05" href="#animatedModal_robotics" class="portfolio_item"> <img src="img/portfolio/robotics/krang_portrait_cropped.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Robotics</span> <em>Robotics</em> </div>
                                         </div>
                                     </div>
                                 </a>
@@ -303,8 +303,10 @@
                         <br /> <img src="img/portfolio/cad/cartesian.JPG" alt="" class="img-responsive" />
                         <br />
                         <br />
-                        <img src="img/portfolio/cad/materials_multitool_render.JPG" alt="" class="img-responsive" /><br /> 
-                        <img src="img/portfolio/cad/revonut_design_assembly.JPG" alt="" class="img-responsive" /><br /> 
+                        <img src="img/portfolio/cad/materials_multitool_render.JPG" alt="" class="img-responsive" />
+                        <br /> 
+                        <img src="img/portfolio/cad/revonut_design_assembly.JPG" alt="" class="img-responsive" />
+                        <br /> 
                         <img src="img/portfolio/cad/engine_hoist.JPG" alt="" class="img-responsive" />
                         <br />
                         <br /> 
@@ -467,9 +469,29 @@
                         <h2>Robotics<br /> DART </h2>
                         <h4> simulation, dart, robotics</h4>
                         <div class="h-50"></div>
-                        <p> This portion of the website is in progress. Meanwhile, you can see a cool simulation of some of my work at the link below.  
-                            <br /> <br /> 
-                             <a href="https://youtu.be/ZnX2Zx5hVZE"> Inverse Kinematics of a 7-DOF Arm </a><br />
+                        <p> This portion of the website is in progress.</p>
+                        <br />
+                        <img src="img/portfolio/robotics/krang_portrait_up.png" alt="" class="img-responsive" />
+                        <p align="center"> Portrait of the Wheeled Inverted Pendulum Humanoid, Golem Krang. </p>
+                        <br />
+                        <img src="img/portfolio/robotics/transformShot.png" alt="" class="img-responsive" />
+                        <p align="center"> A model of one of Krang's arms, with ZED Stereo Camera attached </p>
+                        <br />
+                        <p> An inverse kinematics formulation for the 7-DOF arms of the robot was applied and preliminary results are shown at the link below:</p>
+                             <a href="https://youtu.be/ZnX2Zx5hVZE"> Optimizaiton-Based Inverse Kinematics Solution for a 7-DOF Arm </a><br />
+                             <br />
+                             <p> I utilized a depth camera for finding the 3D location of target objects to be grasped by the robot. This was essentially a visual-servo control problem, utilizing the above-developed controller for the grasping task. </p>
+                             <br />
+                             <img src="img/portfolio/robotics/vision_pipeline.png" alt="" class="img-responsive" />
+                             <p align="center"> A pipeline from the raw image to detecting objects of interest (in this case a tennis ball) to be grasped utilizing OpenCV, as well as a visual representation of the depth map built by the ZED Camera. </p>
+                             <br />
+                             <img src="img/portfolio/robotics/vs2.png" alt="" class="img-responsive" />
+                             <p align="center"> The full system working on hardware, tracking the tennis ball and moving the arm to a grasping position (sequence from top-left to bottom-right. </p>
+                             <br />
+                             <p>In addition to visual-servo, I was able to utilize the stereo cameras positional tracking capabilities to estimate the angle of the base link of the robot. The goal was to estimate the state of the link to compliment the noisy signal published by the IMU.</p>
+                             <br />
+                             <img src="img/portfolio/robotics/imu_cam_plot.png" alt="" class="img-responsive" />
+                             <p align="center"> Raw IMU data, Kalman-filtered IMU data, and raw camera data </p>
                         <br />
                         <br />
                     </div>
